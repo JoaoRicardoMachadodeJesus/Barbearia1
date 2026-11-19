@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+ <head>
+      <meta charset="UFT-8">
+     <titlle>Barbearia Alura</titlle>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+        <header>
+         <h1 class="titulo-principal">Barbearia Alura</h1>
+    
+       </header>
+ 
+        <div class="principal">
+           <img id="banner" src="banner (1).jpg">
+
+           <h2 class="titulo-centralizado">sobre a Barbearia Alura</h2>
+
+           <p>localiza no coração da cidade de Itaperuçu</p>
+        
+           <p id="missao">Nossa missao é <em>"Proporcionar auto-estima e qualidade de vida aos clientes"</em></p>
+           
+           <p>Oferecer profissionais experientes e antenados às mudaças no mundo da moda. O atendimento possui padrão</p>
+        </div>
+
+        <div class="beneficios">
+            
+            <h1 class="titulo-centralizado">Benefícios</h1>
+                <ul>             
+                  <li class="itens">Atendimento aos Clientes</li>
+                  <li class="itens">Espaço Diferenciado</li>
+                  <li class="itens">Promoções e Pacotes </li>
+                  <li class="itens">Otima localização </li>
+                </ul>
+
+                <img id="beneficios" src="beneficios.jpg">
+              </div>
+
+        <div class="Agendamento">
+          <h2 class="titulo-centralizado">Agende seu Horario</h2>
+          <form id="form-Agendamento">
+             <label for="data">Selecione a Data;</label>
+             <input type="date" id="data" name="data" required>
+
+             <label for="hora">Selecione Seu Horario;</label>
+             <input type="time" id="hora" name="hora" required>
+             
+             <button type="submit" id="agendar">Agendar</button>
+          </form>
+          <p id="mensagem-sucesso" style="display: none;">Horario agendado com sucesso</p>
+
+        </div>   
+     <script src="script.js"></script>
+    </body>
+    
+</html>
