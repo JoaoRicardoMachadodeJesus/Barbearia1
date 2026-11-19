@@ -1,0 +1,92 @@
+body (
+
+)
+
+.titulo-principal {
+      /* padding 20px; */
+}
+
+#banner {
+    width: 100%;
+}
+
+.principal{
+    background-image:linear-gradient(gray,#d11717) ;
+    padding: 20px;
+    border-radius: 8px 8px 0rem 0rem;
+}
+
+.titulo-centralizado {
+     text-align: center;
+}
+
+p {
+     text-align: center;
+}
+#missao {
+    font-size:20px;
+}
+
+em {
+    color: red;
+}
+
+.beneficios{
+    background-image:linear-gradient(#d11717,gray ) ;
+    padding: 20px;
+    border-radius: 0rem 0rem 8px 8px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20x;
+    margin-right: 15x;
+} 
+
+.item{
+   font-style: italic;
+   font-size: 20px;
+}
+#beneficios{
+    width: 60%;
+}
+.Agendamento{
+   background-image: linear-gradient(gray, #f4f4f4);
+   padding: 30px;
+   border-radius: 8px;
+   margin-top: 30px;
+}
+.Agendamento label{
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+}
+.Agendamento input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom:10px;
+    font-size: 1rem;
+    border-radius:5px ;
+    border: 1px solid #837b7b;
+}
+.Agendamento button{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.Agendamento button:hover {
+    background-color: green;
+}
+#mensagem-sucesso{
+    color: green;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
